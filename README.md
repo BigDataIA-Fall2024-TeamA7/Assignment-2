@@ -32,12 +32,12 @@ Develop an automated text extraction system and a client-facing application that
 - Experience with Docker
 
 ## Architecture Diagram
-![Architecture Diagram](https://github.com/YourUsername/Assignment-2/blob/main/architecture-diagram/architecture_diagram.png)
+![Architecture Diagram](https://github.com/SaiPranaviJeedigunta/Assignment-2/blob/main/architecture_diagram/architecture_diagram.png)
 
 ## Codelab link: [Codelab Document](https://codelabs-preview.appspot.com/?file_id=YOUR_CODELAB_LINK)
 
 ## Demo Video
-You can view the demo video by clicking [here](https://github.com/YourUsername/Assignment-2/blob/main/demo/YOUR_DEMO_VIDEO.mp4).
+You can view the demo video by clicking [here](https://github.com/SaiPranaviJeedigunta/Assignment-2/blob/main/demo/YOUR_DEMO_VIDEO.mp4).
 
 ## How to Run the Application Locally
 1. Clone the repository:
