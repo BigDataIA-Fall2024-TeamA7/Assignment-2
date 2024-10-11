@@ -7,11 +7,13 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY ./app ./app
 
-# Create credentials directory and copy the file
-RUN mkdir -p /app/credentials
-COPY credentials/damg7245-project2-1daeb31ccdee.json /app/credentials/
+# Remove the credentials copying step
+# RUN mkdir -p /app/credentials
+# COPY credentials/damg7245-project2-1daeb31ccdee.json /app/credentials/
 
-ENV GOOGLE_APPLICATION_CREDENTIALS=/app/credentials/damg7245-project2-1daeb31ccdee.json
+# Use ARG instead of ENV for the credentials path
+ARG GOOGLE_APPLICATION_CREDENTIALS
+ENV GOOGLE_APPLICATION_CREDENTIALS=${GOOGLE_APPLICATION_CREDENTIALS}
 
 EXPOSE 8000
 
