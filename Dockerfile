@@ -11,11 +11,11 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy the application code
 COPY ./app ./app
 
-# Copy the credentials file
-COPY ./credentials/damg7245-project2-1daeb31ccdee.json /app/credentials/damg7245-project2-1daeb31ccdee.json
+# Copy the credentials directory to the root of the container
+COPY ./credentials /credentials
 
 # Set the environment variable for Google Cloud credentials
-ENV GOOGLE_APPLICATION_CREDENTIALS=/app/credentials/damg7245-project2-1daeb31ccdee.json
+ENV GOOGLE_APPLICATION_CREDENTIALS=/credentials/damg7245-project2-1daeb31ccdee.json
 
 # Expose the port the app runs on
 EXPOSE 8000
