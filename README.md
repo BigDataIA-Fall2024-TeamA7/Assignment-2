@@ -39,6 +39,12 @@ Develop an automated text extraction system and a client-facing application that
 ## Demo Video
 You can view the demo video by clicking [here](https://github.com/SaiPranaviJeedigunta/Assignment-2/blob/main/demo/YOUR_DEMO_VIDEO.mp4).
 
+# PDF Extraction Evaluation Template
+
+This repository contains resources for evaluating PDF extraction APIs. 
+
+You can find the PDF extraction evaluation template [here](https://raw.githubusercontent.com/username/repo_name/branch_name/Assignment-2/pdf_extraction_evalutaion/PDF_Extraction_API_Evaluation_Template_.pdf).
+
 ## How to Run the Application Locally
 1. Clone the repository:
    ```bash
