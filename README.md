@@ -2,6 +2,7 @@
 
 ## Live Application Links
 - **Streamlit Application**: [Streamlit URL Here](http://your-streamlit-url)
+- **Airflow localhost**: [airflow-localhost_Here](http://localhost:8080/home)
 
 ## Problem Statement
 Develop an automated text extraction system and a client-facing application that allows users to securely access and query extracted data from PDF files in the GAIA dataset.
