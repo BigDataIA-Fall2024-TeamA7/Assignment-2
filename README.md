@@ -34,7 +34,7 @@ Develop an automated text extraction system and a client-facing application that
 ## Architecture Diagram
 ![Architecture Diagram](https://github.com/BigDataIA-Fall2024-TeamA7/Assignment-2/blob/main/architecture_diagram/architecture_diagram.png)
 
-## Codelab link: [Codelab Document](https://codelabs-preview.appspot.com/?file_id=YOUR_CODELAB_LINK)
+## Codelab link: [Codelab Document](https://codelabs-preview.appspot.com/?file_id=https://docs.google.com/document/d/12JeDAVi8MTSUe7OpSaZXqRY3w_g-el0ALN3J2ZGNFZI/edit?tab=t.0#0)
 
 ## Demo Video
 You can view the demo video by clicking [here](https://github.com/SaiPranaviJeedigunta/Assignment-2/blob/main/demo/YOUR_DEMO_VIDEO.mp4).
