@@ -1,0 +1,9 @@
+# Ignore virtual environment folders
+venv/
+env/
+BDvirtual2/
+BD2app/BDvirtual2/
+airflow_env/
+
+# Ignore .env file containing environment variables
+.env
