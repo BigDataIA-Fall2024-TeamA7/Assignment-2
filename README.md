@@ -9,9 +9,6 @@ Develop an automated text extraction system and a client-facing application that
 ## Project Summary
 The Automated Text Extraction Application leverages advanced techniques to extract and analyze textual data from a variety of document formats, converting unstructured data into actionable insights. This client-facing application features a user-friendly interface built with Streamlit, a robust backend powered by FastAPI, and an automated extraction pipeline managed by Apache Airflow. The integration of Google Cloud technologies and the OpenAI API enhances its capabilities, making it a valuable tool for organizations seeking to improve their decision-making processes.
 
-## Research Background
-In a rapidly evolving digital landscape, organizations increasingly rely on data to inform their strategies and operations. Unstructured data, such as text from PDFs, emails, and documents, often holds critical information that can drive business insights. Research shows that automating text extraction and analysis significantly improves operational efficiency, enabling teams to focus on high-value tasks rather than manual data processing. This project draws upon current methodologies and tools in the field of text extraction, natural language processing, and cloud computing to develop a scalable solution.
-
 ## Technologies Used
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
 [![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)](https://www.python.org/)
@@ -23,6 +20,9 @@ In a rapidly evolving digital landscape, organizations increasingly rely on data
 [![Airflow](https://img.shields.io/badge/Airflow-17A3B8?style=for-the-badge&logo=apacheairflow&logoColor=white)](https://airflow.apache.org/)
 [![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)](https://jwt.io/)
 [![BigQuery](https://img.shields.io/badge/BigQuery-0072C6?style=for-the-badge&logo=googlecloud&logoColor=white)](https://cloud.google.com/bigquery)
+
+## Research Background
+In a rapidly evolving digital landscape, organizations increasingly rely on data to inform their strategies and operations. Unstructured data, such as text from PDFs, emails, and documents, often holds critical information that can drive business insights. Research shows that automating text extraction and analysis significantly improves operational efficiency, enabling teams to focus on high-value tasks rather than manual data processing. This project draws upon current methodologies and tools in the field of text extraction, natural language processing, and cloud computing to develop a scalable solution.
 
 ## Proof of Concept (PoC)
 The proof of concept demonstrates the core functionalities of the application, showcasing its ability to:
