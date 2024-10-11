@@ -88,11 +88,5 @@ You can view the demo video by clicking [here](https://github.com/SaiPranaviJeed
 
 ---
 
-### Additional Notes
-1. **Attestation and Contribution Declaration**:
+## **Attestation and Contribution Declaration**:
    > WE ATTEST THAT WE HAVEN’T USED ANY OTHER STUDENTS’ WORK IN OUR ASSIGNMENT AND ABIDE BY THE POLICIES LISTED IN THE STUDENT HANDBOOK.
-
-2. **Contribution Breakdown**:
-   - Member 1: 33%
-   - Member 2: 33%
-   - Member 3: 33%
