@@ -6,11 +6,53 @@
 ## Problem Statement
 Develop an automated text extraction system and a client-facing application that allows users to securely access and query extracted data from PDF files in the GAIA dataset.
 
+## Project Summary
+The Automated Text Extraction Application leverages advanced techniques to extract and analyze textual data from a variety of document formats, converting unstructured data into actionable insights. This client-facing application features a user-friendly interface built with Streamlit, a robust backend powered by FastAPI, and an automated extraction pipeline managed by Apache Airflow. The integration of Google Cloud technologies and the OpenAI API enhances its capabilities, making it a valuable tool for organizations seeking to improve their decision-making processes.
+
+## Research Background
+In a rapidly evolving digital landscape, organizations increasingly rely on data to inform their strategies and operations. Unstructured data, such as text from PDFs, emails, and documents, often holds critical information that can drive business insights. Research shows that automating text extraction and analysis significantly improves operational efficiency, enabling teams to focus on high-value tasks rather than manual data processing. This project draws upon current methodologies and tools in the field of text extraction, natural language processing, and cloud computing to develop a scalable solution.
+
+## Proof of Concept (PoC)
+The proof of concept demonstrates the core functionalities of the application, showcasing its ability to:
+
+Extract text from PDF and other document formats using both open-source (PyMuPDF) and proprietary (Adobe API) tools.
+Store and manage extracted data in Google Cloud Storage, utilizing Google BigQuery for efficient data retrieval and analysis.
+Process natural language queries through the OpenAI API, providing users with relevant insights based on their inquiries.
+Automate the workflow using Apache Airflow, ensuring reliable task scheduling and monitoring.
+The PoC has been tested with various document formats, yielding positive results in terms of extraction accuracy and response times.
+
 ## Project Goals
-- Automate the acquisition and processing of PDF files from the GAIA dataset.
-- Implement a user registration and login system with JWT authentication.
-- Provide an interactive interface for users to query and access extracted text data.
-- Ensure secure data handling and user authentication throughout the application.
+The primary goals of the Automated Text Extraction Application are to create a comprehensive and scalable tool that transforms unstructured text data into actionable insights. The key objectives include:
+
+Automated Text Extraction:
+
+Develop a seamless pipeline that automatically extracts text from various document formats (e.g., PDFs, DOCX) using both open-source and proprietary tools.
+Ensure high accuracy and efficiency in the extraction process to facilitate reliable data analysis.
+User-Centric Interface:
+
+Design an intuitive and interactive client-facing interface using Streamlit, allowing users to effortlessly submit queries and receive organized results.
+Enhance user experience by ensuring that the interface is responsive and easy to navigate.
+Efficient Data Storage and Processing:
+
+Utilize Google Cloud Storage (GCS) for scalable and secure storage of extracted text data.
+Implement Google BigQuery for rapid data analysis and retrieval, enabling users to efficiently handle large volumes of data.
+Natural Language Querying:
+
+Integrate the OpenAI API to enable intelligent query processing, allowing users to ask complex questions and receive contextually relevant responses.
+Improve the application’s ability to provide insights based on natural language understanding.
+Workflow Automation:
+
+Leverage Apache Airflow to orchestrate the text extraction pipeline, ensuring efficient task scheduling, monitoring, and fault tolerance.
+Automate repetitive tasks to minimize manual intervention and increase reliability.
+Consistent Deployment:
+
+Employ Docker for containerization of the entire application, ensuring consistent deployment across different environments (development, testing, and production).
+Simplify the deployment process to facilitate scaling and integration with other systems.
+Scalability and Flexibility:
+
+Design the application to handle varying workloads, ensuring that it can scale according to user demand.
+Provide flexibility to incorporate additional features, such as advanced OCR capabilities and multi-language support, in future iterations.
+By achieving these goals, the project aims to empower organizations to harness the potential of their unstructured data, ultimately leading to improved operational efficiency and informed decision-making.
 
 ## Technologies Used
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
