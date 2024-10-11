@@ -21,7 +21,7 @@ The Automated Text Extraction Application leverages advanced techniques to extra
 [![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)](https://jwt.io/)
 [![BigQuery](https://img.shields.io/badge/BigQuery-0072C6?style=for-the-badge&logo=googlecloud&logoColor=white)](https://cloud.google.com/bigquery)
 
-## Research Background
+## Background
 In a rapidly evolving digital landscape, organizations increasingly rely on data to inform their strategies and operations. Unstructured data, such as text from PDFs, emails, and documents, often holds critical information that can drive business insights. Research shows that automating text extraction and analysis significantly improves operational efficiency, enabling teams to focus on high-value tasks rather than manual data processing. This project draws upon current methodologies and tools in the field of text extraction, natural language processing, and cloud computing to develop a scalable solution.
 
 ## Proof of Concept (PoC)
