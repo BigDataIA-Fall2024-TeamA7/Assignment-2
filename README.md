@@ -43,7 +43,7 @@ You can view the demo video by clicking [here](https://github.com/SaiPranaviJeed
 
 This repository contains resources for evaluating PDF extraction APIs. 
 
-You can find the PDF extraction evaluation template [here](https://raw.githubusercontent.com/username/repo_name/branch_name/Assignment-2/pdf_extraction_evalutaion/PDF_Extraction_API_Evaluation_Template_.pdf).
+You can find the PDF extraction evaluation template [here](https://github.com/BigDataIA-Fall2024-TeamA7/Assignment-2/blob/main/pdf_extraction_evalutaion/PDF_Extraction_API_Evaluation_Template_.pdf).
 
 ## How to Run the Application Locally
 1. Clone the repository:
