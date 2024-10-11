@@ -22,37 +22,21 @@ Automate the workflow using Apache Airflow, ensuring reliable task scheduling an
 The PoC has been tested with various document formats, yielding positive results in terms of extraction accuracy and response times.
 
 ## Project Goals
-The primary goals of the Automated Text Extraction Application are to create a comprehensive and scalable tool that transforms unstructured text data into actionable insights. The key objectives include:
+The Automated Text Extraction Application aims to transform unstructured text data into actionable insights through the following key objectives:
 
-Automated Text Extraction:
+1. Automated Text Extraction: Implement a pipeline that extracts text from various document formats with high accuracy and efficiency.
 
-Develop a seamless pipeline that automatically extracts text from various document formats (e.g., PDFs, DOCX) using both open-source and proprietary tools.
-Ensure high accuracy and efficiency in the extraction process to facilitate reliable data analysis.
-User-Centric Interface:
+2. User-Centric Interface: Create an intuitive interface using Streamlit, enabling users to submit queries and receive organized results seamlessly.
 
-Design an intuitive and interactive client-facing interface using Streamlit, allowing users to effortlessly submit queries and receive organized results.
-Enhance user experience by ensuring that the interface is responsive and easy to navigate.
-Efficient Data Storage and Processing:
+3. Efficient Data Storage: Utilize Google Cloud Storage (GCS) for secure text data storage and Google BigQuery for fast data analysis.
 
-Utilize Google Cloud Storage (GCS) for scalable and secure storage of extracted text data.
-Implement Google BigQuery for rapid data analysis and retrieval, enabling users to efficiently handle large volumes of data.
-Natural Language Querying:
+4. Natural Language Querying: Integrate the OpenAI API for intelligent query processing, allowing users to ask complex questions and receive relevant responses.
 
-Integrate the OpenAI API to enable intelligent query processing, allowing users to ask complex questions and receive contextually relevant responses.
-Improve the application’s ability to provide insights based on natural language understanding.
-Workflow Automation:
+5. Workflow Automation: Use Apache Airflow to automate the extraction pipeline, ensuring efficient task scheduling and monitoring.
 
-Leverage Apache Airflow to orchestrate the text extraction pipeline, ensuring efficient task scheduling, monitoring, and fault tolerance.
-Automate repetitive tasks to minimize manual intervention and increase reliability.
-Consistent Deployment:
+6. Consistent Deployment: Containerize the application with Docker for consistent deployment across different environments.
 
-Employ Docker for containerization of the entire application, ensuring consistent deployment across different environments (development, testing, and production).
-Simplify the deployment process to facilitate scaling and integration with other systems.
-Scalability and Flexibility:
-
-Design the application to handle varying workloads, ensuring that it can scale according to user demand.
-Provide flexibility to incorporate additional features, such as advanced OCR capabilities and multi-language support, in future iterations.
-By achieving these goals, the project aims to empower organizations to harness the potential of their unstructured data, ultimately leading to improved operational efficiency and informed decision-making.
+7. Scalability: Design the application to handle varying workloads, ensuring scalability and flexibility for future enhancements.
 
 ## Technologies Used
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
