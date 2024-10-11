@@ -32,7 +32,7 @@ Develop an automated text extraction system and a client-facing application that
 - Experience with Docker
 
 ## Architecture Diagram
-![Architecture Diagram](https://github.com/SaiPranaviJeedigunta/Assignment-2/blob/main/architecture_diagram/architecture_diagram.png)
+![Architecture Diagram](https://github.com/BigDataIA-Fall2024-TeamA7/Assignment-2/blob/main/architecture_diagram/architecture_diagram.png)
 
 ## Codelab link: [Codelab Document](https://codelabs-preview.appspot.com/?file_id=YOUR_CODELAB_LINK)
 
