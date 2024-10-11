@@ -64,7 +64,7 @@ The Automated Text Extraction Application aims to transform unstructured text da
 ## Codelab link: [Codelab Document](https://codelabs-preview.appspot.com/?file_id=https://docs.google.com/document/d/12JeDAVi8MTSUe7OpSaZXqRY3w_g-el0ALN3J2ZGNFZI/edit?tab=t.0#0)
 
 ## Demo Video
-You can view the demo video by clicking [here](https://github.com/SaiPranaviJeedigunta/Assignment-2/blob/main/demo/YOUR_DEMO_VIDEO.mp4).
+You can view the demo video by clicking [here](https://github.com/BigDataIA-Fall2024-TeamA7/Assignment-2/blob/main/demo/3787aaa2-03a1-42e6-80b0-05af7b1f3191.MP4).
 
 # PDF Extraction Evaluation Template
 
