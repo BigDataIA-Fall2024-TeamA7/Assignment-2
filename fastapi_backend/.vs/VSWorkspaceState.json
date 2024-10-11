@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\App",
+    "\\App\\api",
+    "\\App\\core",
+    "\\App\\db",
+    "\\App\\models",
+    "\\App\\schemas",
+    "\\App\\services"
+  ],
+  "SelectedNode": "\\App",
+  "PreviewInSolutionExplorer": false
+}

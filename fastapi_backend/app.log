@@ -1,0 +1,201 @@
+2024-10-10 03:00:07.378 | ERROR    | app.db.bigquery:create_users_table_if_not_exists:19 - Failed to create users table: 403 POST https://bigquery.googleapis.com/bigquery/v2/projects/your-bigquery-project-id/jobs?prettyPrint=false: Access Denied: Project your-bigquery-project-id: User does not have bigquery.jobs.create permission in project your-bigquery-project-id.
+
+Location: None
+Job ID: 4166b19d-1ff6-4bb7-97cd-ebf5dd10b4c7
+
+2024-10-10 03:02:37.232 | INFO     | app.db.bigquery:create_users_table_if_not_exists:17 - Users table created or already exists
+2024-10-10 05:48:13.461 | ERROR    | app.db.bigquery:create_users_table_if_not_exists:19 - Failed to create users table: 403 POST https://bigquery.googleapis.com/bigquery/v2/projects/damg7245-project2/jobs?prettyPrint=false: Access Denied: Project damg7245-project2: User does not have bigquery.jobs.create permission in project damg7245-project2.
+
+Location: None
+Job ID: 8119b92a-c6cf-41ee-a5d8-e88551b3707f
+
+2024-10-10 06:04:28.829 | ERROR    | app.db.bigquery:create_users_table_if_not_exists:19 - Failed to create users table: 403 POST https://bigquery.googleapis.com/bigquery/v2/projects/damg7245-project2/jobs?prettyPrint=false: Access Denied: Project damg7245-project2: User does not have bigquery.jobs.create permission in project damg7245-project2.
+
+Location: None
+Job ID: 832f3ebb-dd17-40cb-a3c5-0bcc371e93e5
+
+2024-10-10 06:09:18.956 | WARNING  | app.db.bigquery:create_users_table_if_not_exists:18 - Table 'damg7245-project2.assignment2.users' does not exist. Attempting to create it.
+2024-10-10 06:09:19.186 | ERROR    | app.db.bigquery:create_users_table_if_not_exists:30 - Failed to create users table 'damg7245-project2.assignment2.users': 403 POST https://bigquery.googleapis.com/bigquery/v2/projects/damg7245-project2/jobs?prettyPrint=false: Access Denied: Project damg7245-project2: User does not have bigquery.jobs.create permission in project damg7245-project2.
+
+Location: None
+Job ID: 59bd48d1-2b1f-499b-b56f-8365d3c71c1d
+
+2024-10-10 06:09:37.850 | WARNING  | app.db.bigquery:create_users_table_if_not_exists:18 - Table 'damg7245-project2.assignment2.users' does not exist. Attempting to create it.
+2024-10-10 06:09:38.065 | ERROR    | app.db.bigquery:create_users_table_if_not_exists:30 - Failed to create users table 'damg7245-project2.assignment2.users': 403 POST https://bigquery.googleapis.com/bigquery/v2/projects/damg7245-project2/jobs?prettyPrint=false: Access Denied: Project damg7245-project2: User does not have bigquery.jobs.create permission in project damg7245-project2.
+
+Location: None
+Job ID: 1c52ed43-013e-4edf-b743-274a65b3976d
+
+2024-10-10 06:49:45.364 | WARNING  | app.db.bigquery:create_users_table_if_not_exists:18 - Table 'damg7245-project2.assignment2.users' does not exist. Attempting to create it.
+2024-10-10 06:49:45.548 | ERROR    | app.db.bigquery:create_users_table_if_not_exists:30 - Failed to create users table 'damg7245-project2.assignment2.users': 403 POST https://bigquery.googleapis.com/bigquery/v2/projects/damg7245-project2/jobs?prettyPrint=false: Access Denied: Project damg7245-project2: User does not have bigquery.jobs.create permission in project damg7245-project2.
+
+Location: None
+Job ID: 1f290cb5-bb01-4b54-a3e6-3ab8563de009
+
+2024-10-10 06:50:14.851 | WARNING  | app.db.bigquery:create_users_table_if_not_exists:18 - Table 'damg7245-project2.assignment2.users' does not exist. Attempting to create it.
+2024-10-10 06:50:15.069 | ERROR    | app.db.bigquery:create_users_table_if_not_exists:30 - Failed to create users table 'damg7245-project2.assignment2.users': 403 POST https://bigquery.googleapis.com/bigquery/v2/projects/damg7245-project2/jobs?prettyPrint=false: Access Denied: Project damg7245-project2: User does not have bigquery.jobs.create permission in project damg7245-project2.
+
+Location: None
+Job ID: 19e90817-a9a8-405a-9000-e39b9e377c8a
+
+2024-10-10 06:50:25.643 | WARNING  | app.db.bigquery:create_users_table_if_not_exists:18 - Table 'damg7245-project2.assignment2.users' does not exist. Attempting to create it.
+2024-10-10 06:50:25.859 | ERROR    | app.db.bigquery:create_users_table_if_not_exists:30 - Failed to create users table 'damg7245-project2.assignment2.users': 403 POST https://bigquery.googleapis.com/bigquery/v2/projects/damg7245-project2/jobs?prettyPrint=false: Access Denied: Project damg7245-project2: User does not have bigquery.jobs.create permission in project damg7245-project2.
+
+Location: None
+Job ID: 385e10d6-9759-469c-a181-97ea6dd9c9b0
+
+2024-10-10 06:59:33.256 | ERROR    | app.db.bigquery:create_users_table_if_not_exists:21 - Table 'damg7245-project2.assignment2.users' does not exist or there is an error accessing it: 403 GET https://bigquery.googleapis.com/bigquery/v2/projects/damg7245-project2/datasets/assignment2/tables/users?prettyPrint=false: Access Denied: Table damg7245-project2:assignment2.users: Permission bigquery.tables.get denied on table damg7245-project2:assignment2.users (or it may not exist).
+2024-10-10 06:59:33.259 | ERROR    | app.db.bigquery:create_users_table_if_not_exists:22 - The backend will not attempt to create this table. Please check the table's existence and permissions.
+2024-10-10 06:59:47.057 | ERROR    | app.db.bigquery:create_users_table_if_not_exists:21 - Table 'damg7245-project2.assignment2.users' does not exist or there is an error accessing it: 403 GET https://bigquery.googleapis.com/bigquery/v2/projects/damg7245-project2/datasets/assignment2/tables/users?prettyPrint=false: Access Denied: Table damg7245-project2:assignment2.users: Permission bigquery.tables.get denied on table damg7245-project2:assignment2.users (or it may not exist).
+2024-10-10 06:59:47.057 | ERROR    | app.db.bigquery:create_users_table_if_not_exists:22 - The backend will not attempt to create this table. Please check the table's existence and permissions.
+2024-10-10 12:42:53.739 | ERROR    | app.db.bigquery:get_user:55 - Failed to fetch user 1@g.com: 403 POST https://bigquery.googleapis.com/bigquery/v2/projects/damg7245-project2/jobs?prettyPrint=false: Access Denied: Project damg7245-project2: User does not have bigquery.jobs.create permission in project damg7245-project2.
+
+Location: None
+Job ID: dc38dadd-69f4-4920-83fd-676372b51c5a
+
+2024-10-10 12:42:53.739 | ERROR    | app.api.auth:register:48 - Registration failed for user 1@g.com: 403 POST https://bigquery.googleapis.com/bigquery/v2/projects/damg7245-project2/jobs?prettyPrint=false: Access Denied: Project damg7245-project2: User does not have bigquery.jobs.create permission in project damg7245-project2.
+
+Location: None
+Job ID: dc38dadd-69f4-4920-83fd-676372b51c5a
+
+2024-10-10 14:25:03.896 | ERROR    | app.main:startup_event:34 - Service account file not found at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\../Team7 credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-10 14:26:46.635 | INFO     | app.main:startup_event:36 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-10 14:36:26.798 | INFO     | app.main:startup_event:39 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-10 14:39:53.891 | INFO     | app.db.bigquery:create_user:74 - User 12@gmail.com created successfully.
+2024-10-10 14:40:57.347 | ERROR    | app.api.auth:login:68 - Login failed for user 12@gmail.com: create_access_token() got an unexpected keyword argument 'expires_delta'
+2024-10-10 15:44:46.977 | INFO     | app.main:startup_event:39 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-10 15:45:24.405 | ERROR    | app.api.auth:register:48 - Registration failed for user 12@gmail.com: 400: Username already registered
+2024-10-10 15:46:15.221 | INFO     | app.db.bigquery:create_user:74 - User 123@gmail.com created successfully.
+2024-10-10 15:46:31.175 | ERROR    | app.api.auth:login:68 - Login failed for user 123@gmail.com: create_access_token() got an unexpected keyword argument 'expires_delta'
+2024-10-10 15:58:58.276 | INFO     | app.main:startup_event:39 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-10 16:01:16.066 | INFO     | app.main:startup_event:39 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-10 16:01:44.216 | ERROR    | app.api.auth:login:68 - Login failed for user 123@gmail.com: create_access_token() got an unexpected keyword argument 'expires_delta'
+2024-10-10 16:16:33.283 | INFO     | app.main:startup_event:39 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-10 16:17:00.512 | ERROR    | app.api.auth:login:68 - Login failed for user 123@gmail.com: create_access_token() got an unexpected keyword argument 'expires_delta'
+2024-10-10 16:18:26.967 | INFO     | app.db.bigquery:create_user:74 - User 12345@gmail.com created successfully.
+2024-10-10 16:19:08.921 | ERROR    | app.api.auth:login:68 - Login failed for user 12345@gmail.com: create_access_token() got an unexpected keyword argument 'expires_delta'
+2024-10-10 16:20:09.345 | ERROR    | app.api.auth:login:68 - Login failed for user 12345@gmail.com: 401: Incorrect username or password
+2024-10-10 16:20:53.235 | ERROR    | app.api.auth:login:68 - Login failed for user 12345@gmail.com: create_access_token() got an unexpected keyword argument 'expires_delta'
+2024-10-10 16:43:44.204 | INFO     | app.main:startup_event:39 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-10 16:44:18.125 | ERROR    | app.api.auth:login:68 - Login failed for user 12345@gmail.com: create_access_token() got an unexpected keyword argument 'expires_delta'
+2024-10-10 16:51:36.575 | INFO     | app.main:startup_event:39 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-10 16:51:56.850 | ERROR    | app.api.auth:login:108 - Login failed for user 12345@gmail.com: 401: Incorrect username or password
+2024-10-10 16:53:10.245 | INFO     | app.api.auth:register:46 - Registering new user: kd@gmail.com
+2024-10-10 16:53:13.484 | INFO     | app.db.bigquery:create_user:74 - User kd@gmail.com created successfully.
+2024-10-10 16:53:13.485 | INFO     | app.api.auth:register:55 - User kd@gmail.com successfully registered.
+2024-10-10 17:13:07.809 | INFO     | app.main:startup_event:39 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-10 17:13:30.654 | INFO     | app.main:startup_event:39 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-10 17:14:50.127 | INFO     | app.main:startup_event:39 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-10 17:21:21.878 | INFO     | app.main:startup_event:39 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-10 17:22:24.918 | INFO     | app.api.auth:register:48 - Registering new user: dd@gmail.com
+2024-10-10 17:22:29.122 | INFO     | app.db.bigquery:create_user:74 - User dd@gmail.com created successfully.
+2024-10-10 17:22:29.124 | INFO     | app.api.auth:register:57 - User dd@gmail.com successfully registered.
+2024-10-10 19:49:31.019 | INFO     | app.main:startup_event:39 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-10 21:25:23.923 | INFO     | app.main:startup_event:40 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-10 21:39:40.610 | INFO     | app.main:startup_event:40 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-10 21:39:48.187 | INFO     | app.main:startup_event:40 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-10 21:48:21.116 | INFO     | app.main:startup_event:40 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-10 21:48:55.766 | INFO     | app.api.auth:register:48 - Registering new user: kk@gmail.com
+2024-10-10 21:48:59.130 | INFO     | app.db.bigquery:create_user:76 - User kk@gmail.com created successfully.
+2024-10-10 21:48:59.131 | INFO     | app.api.auth:register:57 - User kk@gmail.com successfully registered.
+2024-10-10 22:07:03.010 | INFO     | app.main:startup_event:40 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-10 22:08:20.508 | INFO     | app.main:startup_event:40 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-10 22:18:08.479 | INFO     | app.main:startup_event:40 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-10 22:36:50.841 | INFO     | app.main:startup_event:40 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-10 22:38:23.345 | INFO     | app.main:startup_event:67 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-10 22:39:24.633 | INFO     | app.main:startup_event:67 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-10 22:45:34.343 | INFO     | app.main:startup_event:67 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-10 23:12:29.736 | INFO     | app.main:startup_event:67 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-10 23:15:33.662 | INFO     | app.main:startup_event:67 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-10 23:17:36.671 | ERROR    | app.db.bigquery:get_extracted_data:57 - Failed to fetch extracted data: 404 Not found: Table damg7245-project2:assignment2.extracted_data was not found in location US; reason: notFound, message: Not found: Table damg7245-project2:assignment2.extracted_data was not found in location US
+
+Location: US
+Job ID: efdb0835-38d6-4fa2-b0df-145e6070da10
+
+2024-10-10 23:22:58.141 | INFO     | app.main:startup_event:67 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-10 23:23:01.681 | INFO     | app.main:startup_event:67 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-10 23:24:01.539 | INFO     | app.main:startup_event:67 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-10 23:36:51.625 | ERROR    | app.db.bigquery:get_extracted_data:88 - Failed to fetch extracted data: 400 Unrecognized name: question_id at [7:15]; reason: invalidQuery, location: query, message: Unrecognized name: question_id at [7:15]
+
+Location: US
+Job ID: 2d26c169-5ae7-410f-b878-70868e71ada0
+
+2024-10-10 23:38:42.519 | ERROR    | app.db.bigquery:get_extracted_data:88 - Failed to fetch extracted data: 404 Not found: Table damg7245-project2:assignment2.extracted_data was not found in location US; reason: notFound, message: Not found: Table damg7245-project2:assignment2.extracted_data was not found in location US
+
+Location: US
+Job ID: d76344aa-f66b-4dea-b24e-038bc0ff62b2
+
+2024-10-10 23:44:58.076 | INFO     | app.main:startup_event:67 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-10 23:47:23.644 | INFO     | app.main:startup_event:67 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-10 23:49:38.654 | INFO     | app.main:startup_event:67 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-10 23:52:18.593 | INFO     | app.main:startup_event:67 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-11 00:12:48.019 | INFO     | app.main:startup_event:67 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-11 00:14:42.770 | INFO     | app.main:startup_event:67 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-11 00:22:18.356 | INFO     | app.main:startup_event:67 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-11 00:30:56.406 | INFO     | app.main:startup_event:67 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-11 00:38:32.782 | INFO     | app.main:startup_event:67 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-11 00:39:14.059 | INFO     | app.main:startup_event:67 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-11 00:44:24.771 | INFO     | app.main:startup_event:67 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-11 00:48:13.324 | INFO     | app.main:startup_event:67 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-11 00:51:57.168 | INFO     | app.main:startup_event:67 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-11 00:58:59.646 | INFO     | app.main:startup_event:67 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-11 01:02:54.955 | INFO     | app.main:startup_event:67 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-11 01:04:24.766 | INFO     | app.main:startup_event:67 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-11 01:19:51.200 | INFO     | app.main:startup_event:67 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-11 01:27:54.186 | INFO     | app.main:startup_event:67 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-11 01:29:28.636 | INFO     | app.main:startup_event:67 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-11 01:29:31.162 | INFO     | app.main:startup_event:67 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-11 01:44:02.709 | INFO     | app.main:startup_event:67 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-11 01:44:17.895 | INFO     | app.main:startup_event:67 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-11 01:45:27.088 | INFO     | app.main:startup_event:67 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-11 02:00:32.627 | INFO     | app.main:startup_event:67 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-11 02:01:05.541 | ERROR    | app.db.bigquery:get_extracted_data:84 - Failed to fetch extracted data: 404 Not found: Table damg7245-project2:assignment2.adobe_extracted_table was not found in location US; reason: notFound, message: Not found: Table damg7245-project2:assignment2.adobe_extracted_table was not found in location US
+
+Location: US
+Job ID: cf0d2924-bd6b-43e6-8bf8-fb176aa06aa5
+
+2024-10-11 02:01:05.542 | ERROR    | app.api.questions:read_extracted_data:30 - Failed to fetch extracted data: 404 Not found: Table damg7245-project2:assignment2.adobe_extracted_table was not found in location US; reason: notFound, message: Not found: Table damg7245-project2:assignment2.adobe_extracted_table was not found in location US
+
+Location: US
+Job ID: cf0d2924-bd6b-43e6-8bf8-fb176aa06aa5
+
+2024-10-11 02:01:59.614 | ERROR    | app.db.bigquery:get_extracted_data:84 - Failed to fetch extracted data: 404 Not found: Table damg7245-project2:assignment2.adobe_extracted_table was not found in location US; reason: notFound, message: Not found: Table damg7245-project2:assignment2.adobe_extracted_table was not found in location US
+
+Location: US
+Job ID: 36eb9895-ba03-4733-a285-71ec1d7d48b5
+
+2024-10-11 02:01:59.614 | ERROR    | app.api.questions:read_extracted_data:30 - Failed to fetch extracted data: 404 Not found: Table damg7245-project2:assignment2.adobe_extracted_table was not found in location US; reason: notFound, message: Not found: Table damg7245-project2:assignment2.adobe_extracted_table was not found in location US
+
+Location: US
+Job ID: 36eb9895-ba03-4733-a285-71ec1d7d48b5
+
+2024-10-11 02:07:05.572 | INFO     | app.main:startup_event:67 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-11 02:07:35.050 | ERROR    | app.db.bigquery:get_extracted_data:84 - Failed to fetch extracted data: 404 Not found: Table damg7245-project2:assignment2.adobe_extracted_table was not found in location US; reason: notFound, message: Not found: Table damg7245-project2:assignment2.adobe_extracted_table was not found in location US
+
+Location: US
+Job ID: 3344a8a4-efd9-40cb-9c3d-79a63bba6051
+
+2024-10-11 02:07:35.051 | ERROR    | app.api.questions:read_extracted_data:30 - Failed to fetch extracted data: 404 Not found: Table damg7245-project2:assignment2.adobe_extracted_table was not found in location US; reason: notFound, message: Not found: Table damg7245-project2:assignment2.adobe_extracted_table was not found in location US
+
+Location: US
+Job ID: 3344a8a4-efd9-40cb-9c3d-79a63bba6051
+
+2024-10-11 02:14:54.945 | INFO     | app.main:startup_event:67 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-11 02:14:59.189 | INFO     | app.main:startup_event:67 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-11 02:15:01.838 | INFO     | app.main:startup_event:67 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-11 02:15:05.875 | INFO     | app.main:startup_event:67 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-11 02:16:33.484 | INFO     | app.main:startup_event:67 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-11 02:16:47.934 | INFO     | app.main:startup_event:67 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-11 02:32:10.057 | INFO     | app.main:startup_event:67 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-11 02:35:35.869 | INFO     | app.main:startup_event:67 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-11 02:41:20.151 | INFO     | app.main:startup_event:67 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-11 02:49:30.802 | INFO     | app.main:startup_event:67 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-11 02:59:29.508 | INFO     | app.main:startup_event:67 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-11 02:59:31.817 | INFO     | app.main:startup_event:67 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-11 11:05:58.447 | INFO     | app.main:startup_event:67 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-11 11:06:46.298 | INFO     | app.api.auth:register:48 - Registering new user: user@gmail.com
+2024-10-11 11:06:50.547 | INFO     | app.db.bigquery:create_user:130 - User user@gmail.com created successfully.
+2024-10-11 11:06:50.547 | INFO     | app.api.auth:register:57 - User user@gmail.com successfully registered.
+2024-10-11 11:09:39.773 | INFO     | app.main:startup_event:67 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-11 12:59:24.034 | INFO     | app.main:startup_event:67 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
+2024-10-11 13:16:49.781 | INFO     | app.main:startup_event:67 - Using Google Cloud credentials at: C:\Users\123ka\Downloads\Team7-Assignemt2 1\Team7-Assignemt2\app\core\../../credentials/damg7245-project2-1daeb31ccdee.json
